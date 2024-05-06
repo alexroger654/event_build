@@ -1,0 +1,43 @@
+export interface IUser {
+  _id?: string;
+  eventUserId: string;
+  salutation: string;
+  firstName: string;
+  surname: string;
+  eventId: string;
+  email?: string;
+  phone: string;
+  companyName: string;
+  userGroupName: string;
+  password: string;
+  bio: string;
+  profileImageUrl: string;
+  dateOfBirth: string;
+  shopName: string;
+  mealPreference: string;
+  city: string;
+  state: string;
+  zone: string;
+  totalMembers: number;
+  internationalHub: string;
+  bookmarks: string[];
+  gender: "male" | "female" | "other";
+  type: "consumer" | "admin" | "employee";
+  passengerContact: string;
+  flightFrom: string;
+  passportNo: string;
+  dob: string;
+  arrivalFlightName: string;
+  arrivalFlightNo: string;
+  arrivalDate: string;
+  departureDate: string;
+  departureFlightName: string;
+  departureFlightNo: string;
+  //documents
+  panCardImageUrl: string;
+  passportImageUrl: string;
+  passportSizeImageUrl: string;
+  visaImageUrl: string;
+  insuranceUrl: string;
+  airTicketUrl: string;
+}
